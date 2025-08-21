@@ -16,6 +16,7 @@ namespace Aula03Colecoes.Models
         public DateTime DataAdmissao { get; set; }
         public decimal Salario { get; set; }
         public TipoFuncionarioEnum TipoFuncionario { get; set; }
+        
 
         public void ReajustarSalario()
         {
